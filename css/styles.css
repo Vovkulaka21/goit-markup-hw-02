@@ -2,7 +2,7 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --text-color: #757575;
-  --minor-text-color: #212121;
+  --second-text-color: #212121;
   --main-color: #ffffff;
   --secondary-color: #2f303a;
   --accent-color: #2196f3;
@@ -15,7 +15,7 @@ ul {
 }
 /*header and footer*/
 .logotype {
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -29,7 +29,7 @@ ul {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--minor-text-color);
+  color: var(--second-text-color);
 }
 .header-navigation:hover,
 .header-navigation:focus {
@@ -51,7 +51,7 @@ ul {
   background-color: var(--secondary-color);
 }
 .studio-logo-footer {
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -83,14 +83,26 @@ ul {
 .contact-navigation:focus {
   color: var(--accent-color);
 }
-/*body*/
+/*body and general rules*/
 body {
   font-family: var(--primary-font);
   color: var(--text-color);
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /*main page*/
 .order-service {
-  background-color: var(--minor-text-color);
+  background-color: var(--secondary-color);
 }
 .main-title {
   font-weight: 900;
@@ -106,37 +118,70 @@ body {
   color: var(--main-color);
   cursor: pointer;
 }
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
-}
-.second-title {
+.second-title-main {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--minor-text-color);
+  color: var(--second-text-color);
 }
-.third-title-main {
+.third-title-features {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--minor-text-color);
+  color: var(--second-text-color);
 }
 .text-our-features {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--text-color);
+}
+.our-team-section {
+  background-color: #f5f4fa;
+}
+.second-title-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.third-title-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+}
+.team-position {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* portfolio */
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: var(--second-text-color);
+}
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
 }
