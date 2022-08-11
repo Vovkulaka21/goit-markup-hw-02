@@ -1,0 +1,142 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --text-color: #757575;
+  --minor-text-color: #212121;
+  --main-color: #ffffff;
+  --secondary-color: #2f303a;
+  --accent-color: #2196f3;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/*header and footer*/
+.logotype {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.header-navigation {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--minor-text-color);
+}
+.header-navigation:hover,
+.header-navigation:focus {
+  color: var(--accent-color);
+}
+.header-navigation-contact {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.header-navigation-contact:hover,
+.header-navigation-contact:focus {
+  color: var(--accent-color);
+}
+.page-footer {
+  background-color: var(--secondary-color);
+}
+.studio-logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.one-word-color {
+  color: var(--accent-color);
+}
+.studio-address,
+.address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+.contact-navigation {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-navigation:hover,
+.contact-navigation:focus {
+  color: var(--accent-color);
+}
+/*body*/
+body {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+}
+/*main page*/
+.order-service {
+  background-color: var(--minor-text-color);
+}
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.oreder-btn {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  cursor: pointer;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--minor-text-color);
+}
+.third-title-main {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--minor-text-color);
+}
+.text-our-features {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
