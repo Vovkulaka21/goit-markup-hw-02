@@ -11,6 +11,23 @@
   --secondary-color: #2f303a;
   --accent-color: #2196f3;
 }
+/*body and general rules*/
+body {
+  font-family: var(--primary-font), var(--secondary-font);
+  color: var(--text-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 a {
   text-decoration: none;
 }
@@ -86,23 +103,6 @@ ul {
 .contact-navigation:hover,
 .contact-navigation:focus {
   color: var(--accent-color);
-}
-/*body and general rules*/
-body {
-  font-family: var(--primary-font), var(--secondary-font);
-  color: var(--text-color);
-}
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
 }
 /*main page*/
 .order-service {
