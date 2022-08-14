@@ -6,6 +6,7 @@
   --font-weight-maxbold: 900;
   --stnd-letter-spacing: 0.03em;
   --stnd-font-size: 14px;
+  --font-size-big: 16px;
   --text-color: #757575;
   --second-text-color: #212121;
   --main-color: #ffffff;
@@ -52,7 +53,6 @@ ul {
 .header-navigation {
   font-style: normal;
   font-weight: var(--font-weight-stnd);
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
@@ -67,7 +67,6 @@ ul {
 .header-navigation-contact {
   font-style: normal;
   font-weight: var(--font-weight-stnd);
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -93,13 +92,11 @@ ul {
 .studio-address,
 .address-link {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--main-color);
 }
 .contact-navigation {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
   color: var(--transparency-color);
 }
@@ -122,7 +119,7 @@ ul {
 }
 .order-btn {
   font-weight: var(--font-weight-bold);
-  font-size: 16px;
+  font-size: var(--font-size-big);
   line-height: 1.9;
   display: flex;
   align-items: center;
@@ -142,13 +139,11 @@ ul {
 }
 .third-title-features {
   font-weight: var(--font-weight-bold);
-  font-size: 14px;
   line-height: 1.42;
   text-transform: uppercase;
   color: var(--second-text-color);
 }
 .text-our-features {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--text-color);
 }
@@ -167,14 +162,13 @@ ul {
 }
 .third-title-team {
   font-weight: var(--font-weight-stnd);
-  font-size: 16px;
+  font-size: var(--font-size-big);
   line-height: 1.19;
   text-align: center;
   color: var(--second-text-color);
 }
 .team-position {
-  font-weight: var(--font-weight-stnd);
-  font-size: 16px;
+  font-size: var(--font-size-big);
   line-height: 1.19;
   text-align: center;
 }
@@ -183,7 +177,7 @@ ul {
   font-family: var(--primary-font);
   font-style: normal;
   font-weight: var(--font-weight-stnd);
-  font-size: 16px;
+  font-size: var(--font-size-big);
   line-height: 26px;
   text-align: center;
   border: none;
@@ -206,6 +200,6 @@ ul {
   color: var(--second-text-color);
 }
 .portfolio-text {
-  font-size: 16px;
+  font-size: var(--font-size-big);
   line-height: 1.88;
 }
