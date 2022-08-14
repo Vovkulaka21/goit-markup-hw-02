@@ -56,6 +56,9 @@ ul {
 .header-navigation:focus {
   color: var(--accent-color);
 }
+.current {
+  color: var(--accent-color);
+}
 .header-navigation-contact {
   font-style: normal;
   font-weight: var(--font-weight-stnd);
