@@ -145,7 +145,6 @@ ul {
 }
 .text-our-features {
   line-height: 1.71;
-  color: var(--text-color);
 }
 .our-team-section {
   background-color: var(--alternative-bakcground-color);
