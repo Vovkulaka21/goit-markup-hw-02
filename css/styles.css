@@ -139,6 +139,7 @@ ul {
 }
 .third-title-features {
   font-weight: var(--font-weight-bold);
+  font-size: var(--stnd-font-size);
   line-height: 1.42;
   text-transform: uppercase;
   color: var(--second-text-color);
@@ -200,5 +201,6 @@ ul {
 }
 .portfolio-text {
   font-size: var(--font-size-big);
-  line-height: 1.88;
+  line-height: 1.9;
+  letter-spacing: var(--stnd-letter-spacing);
 }
